@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "expo-router": "^4.0.19",
+    "react-native": "^0.79.0"
+  }
+}
