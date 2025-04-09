@@ -1,9 +1,13 @@
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function About() {
     return (
         <View style={styles.container}>
-        <Text style={styles.text}>About Screen</Text>
+            <Text style={styles.text}>About Screen</Text>
+            <TouchableOpacity>
+                <Link href="/" style={styles.text}>Back to Home</Link>
+            </TouchableOpacity>
         </View>
     );
 }
